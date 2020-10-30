@@ -18,13 +18,15 @@ Spartan is a lightweight, elegant, and easy to use Spotify Web API wrapper libra
 ## Requirements
 
  - iOS 9.0+ / macOS 10.11+
- - xCode 9.0+
+ - Xcode 9.0+
 
 ## Installation
 
+Spartan can be integrated into your Xcode project using either CocoaPods or Swift Package Manager.
+
 ### CocoaPods
 
-To integrate Spartan into your xCode project using CocoaPods, specify it in your `Podfile`:
+To integrate Spartan using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -42,6 +44,10 @@ $ pod install
 ```
 
 This will download any library dependencies you do not already have in your project.
+
+### Swift Package Manager
+
+To integrate Spartan uisng Swift Package Manager, add `https://github.com/Daltron/Spartan.git` to your package manifest.
 
 ## Usage
 
